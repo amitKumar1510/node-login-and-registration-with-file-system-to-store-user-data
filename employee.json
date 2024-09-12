@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "amit kumar",
+    "dob": "2001-08-10",
+    "userID": "amt2024",
+    "password": "qwerty"
+  },
+  {
+    "id": "2",
+    "name": "Ritu Raj Ray",
+    "dob": "2024-08-08",
+    "userID": "RITU01",
+    "password": "qwerty"
+  }
+]

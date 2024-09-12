@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emp data</title>
+    <link rel="stylesheet" src="emp.css">
+</head>
+<body>
+     <table border="1px" display="block">
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>DOB</th>
+                <th>USER ID</th>
+                <th>PASSWORD</th>
+            </tr>
+            <% data.forEach(emp=>{ %>
+                <tr>
+                    <td><%= emp.id %></td>
+                    <td><%= emp.name %></td>
+                    <td><%= emp.dob %></td>
+                    <td><%= emp.userID %></td>
+                    <td><%= emp.password %></td>
+                </tr>
+            <% }) %>
+        </table>
+</body>
+</html>
